@@ -1,3 +1,3 @@
-# SH-Library
+# Automatik
 
-Sh library is a library for the scripts shell for unix.
+Automatik is a library for the scripts shell for unix.
