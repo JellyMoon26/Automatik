@@ -1,3 +1,3 @@
 # Automatik
 
-Automatik is a library for the scripts shell for linux.
+Automatik est un logiciel permettant d'éxécuter différends scripts shells.
