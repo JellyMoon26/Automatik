@@ -16,8 +16,6 @@ int main(int argc, char *argv[])
      /*if ( choix == 3 ){
  system("/home/oscar/Automatik/christmas.sh");
     }*/
-
-
   return 0;
 }
 
