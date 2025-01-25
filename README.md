@@ -1,6 +1,6 @@
 # Automatik
 
-Automatik est un logiciel permettant d'éxécuter différends scripts shells.(Pour linux)
+Automatik est un logiciel permettant d'éxécuter différends scripts shells pour linux, (éventuellement macOS, pour plus d'informations sur l'installation sur macOS, allez voir dans le wiki.)
 
 # Installation 
 
@@ -20,5 +20,7 @@ Et si vous voulez contribuer à la bibliothèque de scripts, n'hésitez pas à o
 
 
 **Bonne expérience !!**
+
+### FoxDreamer
 
 
