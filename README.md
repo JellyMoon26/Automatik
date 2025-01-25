@@ -12,7 +12,16 @@ cd Automatik
 ```
 et Automatik est prêt à vous servir !
 
+<<<<<<< Upstream, based on branch 'main' of git@codeberg.org:Alcedinidae/Automatik.git
 ## Contribution
+=======
+## Dépendances 
+* lolcat
+* gcc
+* bash
+
+## Autres
+>>>>>>> 27dcaa1 news icons
 
 Si vous voulez contribuer à la bibliothèque de scripts, n'hésitez pas à ouvrir un ticket sur le projet "100 scripts shells" ou à directement mettre des scripts sur le dépot.
 

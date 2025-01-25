@@ -11,10 +11,10 @@ int main(int argc, char *argv[])
         system("/home/oscar/Automatik/clear_cache.sh");
     }
      if ( choix == 2 ){
- system("/home/oscar/Automatik/echo.sh");
+ system("~/Automatik/echo.sh");
     }
      if ( choix == 3 ){
- system("/home/oscar/Automatik/backup.sh");
+ system("~/Automatik/backup.sh");
     }
   return 0;
 }
