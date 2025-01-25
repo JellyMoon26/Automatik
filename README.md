@@ -12,11 +12,9 @@ cd Automatik
 ```
 et Automatik est prêt à vous servir !
 
-## Autres
+## Contribution
 
-En cas de bug, n'hésitez surtout pas a ouvrir un ticket.
-
-Et si vous voulez contribuer à la bibliothèque de scripts, n'hésitez pas à ouvrir un ticket sur le projet "100 scripts shells" ou à directement mettre des scripts sur le dépot.
+Si vous voulez contribuer à la bibliothèque de scripts, n'hésitez pas à ouvrir un ticket sur le projet "100 scripts shells" ou à directement mettre des scripts sur le dépot.
 
 
 **Bonne expérience !!**
