@@ -1,3 +1,5 @@
+![Icon of Automatik](icons/automatik_icon.png "Automatik")
+
 # Automatik
 
 Automatik est un logiciel permettant d'éxécuter différends scripts shells pour linux, (éventuellement macOS, pour plus d'informations sur l'installation sur macOS, allez voir dans le wiki.)
