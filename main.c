@@ -5,7 +5,7 @@ int main(int argc, char *argv[])
 {
     int choix = 1;
     printf("Bienvenue sur Automatik. Ici, vous pourrez exécuter différents scripts très simplement.\n");
-    printf("Voulez vous : cleanez votre cache utilisateur (1) genérer du lorem coloré avec lolcat(requis)(2), ou encore fair une sauveagrde de test temporaire(3)\n");
+    printf("Voulez vous : cleanez votre cache utilisateur (1) ou genérer du lorem coloré avec lolcat(requis)(2).\n");
     scanf("%d", &choix);
       if ( choix == 1 ){
         system("/home/oscar/Automatik/clear_cache.sh");
@@ -13,9 +13,9 @@ int main(int argc, char *argv[])
      if ( choix == 2 ){
  system("~/Automatik/echo.sh");
     }
-     if ( choix == 3 ){
+     /*if ( choix == 3 ){
  system("~/Automatik/backup.sh");
-    }
+    }*/
   return 0;
 }
 
