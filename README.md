@@ -1,4 +1,4 @@
-![Icon of Automatik](icons/automatik_icon.png "Automatik")
+<img src="icons/icon_automatik.png" alt="icon" width="40" heigt="40"/>
 
 # Automatik
 
@@ -19,12 +19,6 @@ et Automatik est prêt à vous servir !
 * lolcat
 * gcc
 * bash
-
-### Contribution
-
-Si vous voulez contribuer à la bibliothèque de scripts, n'hésitez pas à ouvrir un ticket sur le projet "100 scripts shells" ou à directement mettre des scripts sur le dépôt.
-
-
 
 
 
