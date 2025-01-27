@@ -1,4 +1,3 @@
-<img src="icons/icon_automatik.png" alt="icon" width="40" heigt="40"/>
 
 # Automatik
 
