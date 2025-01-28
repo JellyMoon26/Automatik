@@ -1,3 +1,3 @@
-gcc code/main.c -o Automatik
+gcc src/main.c -o Automatik
 
 ./Automatik
