@@ -8,10 +8,10 @@ int main(int argc, char *argv[])
     printf("Voulez vous : cleanez votre cache utilisateur (1) ou genérer du lorem coloré avec lolcat(requis)(2).\n");
     scanf("%d", &choix);
       if ( choix == 1 ){
-        system("~/Automatik/scripts/clear_cache.sh");
+        system("~/.automatik/scripts/clear_cache.sh");
     }
      if ( choix == 2 ){
- system("~/Automatik/scripts/echo.sh");
+ system("~/.automatik/scripts/echo.sh");
     }
      /*if ( choix == 3 ){
  system("~/Automatik/backup.sh");

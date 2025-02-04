@@ -27,10 +27,10 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="px"
      inkscape:zoom="1.2539062"
-     inkscape:cx="256"
-     inkscape:cy="256"
-     inkscape:window-width="1413"
-     inkscape:window-height="886"
+     inkscape:cx="256.00001"
+     inkscape:cy="255.60126"
+     inkscape:window-width="1982"
+     inkscape:window-height="1211"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -51,16 +51,10 @@
      inkscape:label="Calque 1"
      inkscape:groupmode="layer"
      id="layer1">
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:531.02px;line-height:1;font-family:Anklepants;-inkscape-font-specification:Anklepants;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#00aa88;fill-opacity:1;stroke:none;stroke-width:3.5;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
-       x="252.81403"
-       y="450.08777"
-       id="text1"><tspan
-         sodipodi:role="line"
-         id="tspan1"
-         x="252.81403"
-         y="450.08777"
-         style="stroke-width:3.5;fill:#00aa88;stroke-dasharray:none;stroke:none;fill-opacity:1">A</tspan></text>
+    <path
+       d="M 445.83987,450.08777 358.22157,60.850094 H 147.40662 L 59.257298,450.08777 H 180.86088 l 24.95794,-131.69297 99.30075,87.08729 c 9.02734,8.49632 14.86856,17.52366 16.99264,29.2061 l 2.6551,15.39958 z M 299.27835,300.87114 h -92.39749 l 47.7918,-233.648806 z"
+       id="text1"
+       style="font-size:531.02px;line-height:1;font-family:Anklepants;-inkscape-font-specification:Anklepants;text-align:center;text-anchor:middle;fill:#00aa88;stroke-width:3.5;paint-order:stroke fill markers"
+       aria-label="A" />
   </g>
 </svg>
