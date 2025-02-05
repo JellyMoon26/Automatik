@@ -29,6 +29,7 @@ et Automatik est prêt à vous servir !
 * lolcat
 * gcc
 * bash
+* neofetch
 
 
 
