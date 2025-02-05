@@ -1,0 +1,9 @@
+Package: automatik-0-1
+Source: automatik
+Version: 0.1-1
+Architecture: all
+Maintainer: Oscar B<oscar_b@disroot.org>
+Installed-Size: 10
+Section: utils
+Priority: optional
+Description: Automatik est un gestinnaire de scripts et de comandes amusantes et utiles.

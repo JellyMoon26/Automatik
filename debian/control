@@ -1,0 +1,10 @@
+Source: automatik
+Section: utils
+Priority: optional
+Maintainer: Oscar B<oscar_b@disroot.org>																																										
+Build-Depends: debhelper-compat (=12)
+
+Package: automatik-0-1
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Automatik est un gestinnaire de scripts et de comandes amusantes et utiles.

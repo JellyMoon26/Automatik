@@ -4,18 +4,24 @@
 int main(int argc, char *argv[])
 {
     int choix = 1;
-    printf("Bienvenue sur Automatik. Ici, vous pourrez exécuter différents scripts très simplement.\n");
-    printf("Voulez vous : cleanez votre cache utilisateur (1) ou genérer du lorem coloré avec lolcat(requis)(2).\n");
+    printf("Bienvenue sur Automatik. Ici, vous pourrez exécuter différentes commandes amusantes ou utiles très simplement.\n");
+    printf("Voulez vous : cleanez votre cache utilisateur (1), genérer le répertoire de votre dossier personnel coloré avec lolcat(requis)(2), lister tous les fihiers de votre répertoire personnel avec de la couleur(3) ou encore afficher les informations de votre système linux(4).\n");
     scanf("%d", &choix);
       if ( choix == 1 ){
-        system("~/.automatik/scripts/clear_cache.sh");
+        system("rm -r ~/.cache");
     }
      if ( choix == 2 ){
- system("~/.automatik/scripts/echo.sh");
+ system(" echo $HOME | lolcat");
     }
-     /*if ( choix == 3 ){
- system("~/Automatik/backup.sh");
-    }*/
+     if ( choix == 3 ){
+ system("ls -a ~ | lolcat");
+    }
+
+if (choix == 4){
+system("neofetch");
+} else{
+  printf("Vous avez tapé un numéro insignifiatif.Regardez ce que votre horoscope vous dit.\n");
+}
   return 0;
 }
 
