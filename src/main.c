@@ -19,8 +19,6 @@ int main(int argc, char *argv[])
 
 if (choix == 4){
 system("neofetch");
-} else{
-  printf("Vous avez tapé un numéro insignifiatif.Regardez ce que votre horoscope vous dit.\n");
 }
   return 0;
 }
