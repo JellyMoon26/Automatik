@@ -11,7 +11,7 @@ cd
 
 cd Automatik
 
-sudo apt install ./automatik-0.1.deb
+sudo apt install ./automatik-0-1_0.1-1_all.deb
 ```
 et voilà !
 
