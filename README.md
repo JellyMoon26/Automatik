@@ -13,7 +13,9 @@ alt="alt" style="
 #### Version simple
 Si vous êtes sur debian, ubuntu ou un systéme similaire avec le gestionnaire de paquets apt, vous pouvez simplement éxécuter dans votre terminal :
 ```bash
-cd 
+cd ~
+
+git clone https://codeberg.org/Alcedinidae/Automatik.git
 
 cd Automatik
 
