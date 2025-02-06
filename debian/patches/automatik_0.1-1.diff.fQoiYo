@@ -1,0 +1,63 @@
+Description: <short summary of the patch>
+ TODO: Put a short summary on the line above and replace this paragraph
+ with a longer explanation of this change. Complete the meta-information
+ with other relevant fields (see below for details). To make it easier, the
+ information below has been extracted from the changelog. Adjust it or drop
+ it.
+ .
+ automatik (0.1-1) UNRELEASED; urgency=medium
+ .
+   * Initial release. (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+Author: Oscar B <oscar_b@disroot.org>
+
+---
+The information above should follow the Patch Tagging Guidelines, please
+checkout https://dep.debian.net/deps/dep3/ to learn about the format. Here
+are templates for supplementary fields that you might want to add:
+
+Origin: (upstream|backport|vendor|other), (<patch-url>|commit:<commit-id>)
+Bug: <upstream-bugtracker-url>
+Bug-Debian: https://bugs.debian.org/<bugnumber>
+Bug-Ubuntu: https://launchpad.net/bugs/<bugnumber>
+Forwarded: (no|not-needed|<patch-forwarded-url>)
+Applied-Upstream: <version>, (<commit-url>|commit:<commid-id>)
+Reviewed-By: <name and email of someone who approved/reviewed the patch>
+Last-Update: 2025-02-05
+
+--- automatik-0.1.orig/README.md
++++ automatik-0.1/README.md
+@@ -1,12 +1,23 @@
+-
+ # Automatik
+ 
+ Automatik est un logiciel permettant d'éxécuter différends scripts shells pour linux, (éventuellement macOS, pour plus d'informations sur l'installation sur macOS, allez voir dans le wiki.)
+ 
+ ## Installation 
+ 
+-Automatik se compile et s'éxécute très facilement à partir du script install_and_run.sh .
+-Après avoir télécharger le dépot Automatik dans votre dossier personnel (/home/utilisateur), ouvrez un terminal(Ctrl+Alt+T) et tapez
++#### Version simple
++Si vous êtes sur debian, ubuntu ou un systéme similaire avec le gestionnaire de paquets apt, vous pouvez simplement éxécuter dans votre terminal :
++```bash
++cd 
++
++cd Automatik
++
++sudo apt install ./automatik-0.1.deb
++```
++et voilà !
++
++#### Version manuelle
++Automatik se compile et s'éxécute très facilement à partir du script install.sh .
++Après avoir téléchargé le dépot Automatik dans votre dossier personnel (/home/utilisateur), ouvrez un terminal(Ctrl+Alt+T) et tapez
+ ```bash
+ cd Automatik
+ ./install_and_run.sh
+@@ -18,6 +29,7 @@ et Automatik est prêt à vous servir !
+ * lolcat
+ * gcc
+ * bash
++* neofetch
+ 
+ 
+ 
