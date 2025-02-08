@@ -9,5 +9,4 @@ Architecture: all
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: Automatik est un gestinnaire de scripts et de comandes amusantes et utiles.
 Homepage: https://alcedinidae.codeberg.page/
-Website: https://alcedinidae.codeberg.page/
-Icon: ~/automatik-0.1/icons/icon_automatik.svg
+	
