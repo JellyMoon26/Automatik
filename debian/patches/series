@@ -5,8 +5,11 @@ info
 info2
 info-file
 commit-file
+<<<<<<< HEAD
 patch1
 patch
 file
 file2
 patchfilefolderfile
+=======
+>>>>>>> refs/remotes/origin/main
