@@ -10,6 +10,8 @@ Automatik se compile et s'éxécute très facilement à partir du script install
 Après avoir téléchargé le dépot Automatik dans votre dossier personnel (/home/utilisateur), ouvrez un terminal(Ctrl+Alt+T) et tapez
 ```bash
 cd Automatik
+cd dependencies
+./votreystemedepaquets.sh  # votreystemedepaquets est dpkg pour ubuntu, debian et ses dérivés et dnf pour fedora, RHEL et leur dérivés.
 ./install.sh
 ```
 et Automatik est prêt à vous servir (tapez simplementla commande "automatik" pour lancer le logiciel) !
