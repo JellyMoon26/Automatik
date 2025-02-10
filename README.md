@@ -12,7 +12,9 @@ Après avoir téléchargé le dépot Automatik dans votre dossier personnel (/ho
 cd Automatik
 cd dependencies
 ./votreystemedepaquets.sh  # votreystemedepaquets est dpkg pour ubuntu, debian et ses dérivés et dnf pour fedora, RHEL et leur dérivés.
+cd ..
 ```
+ainsi que :
 ```bash
 ./install.sh
 ```
