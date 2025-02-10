@@ -16,7 +16,7 @@ cd Automatik
 ```
 et Automatik est prêt à vous servir (tapez simplementla commande "automatik" pour lancer le logiciel) !
 
-#### Version avec paquet
+ /*#### Version avec paquet
 Si vous êtes sur debian, ubuntu ou un systéme similaire avec le gestionnaire de paquets apt, vous pouvez simplement éxécuter dans votre terminal :
 ```bash
 cd 
@@ -27,7 +27,7 @@ cd Automatik
 
 sudo apt install ./automatik-0-1_0.1-1_all.deb 
 ```
-et voilà !
+et voilà !*/
 
 
 ### Dépendances 
