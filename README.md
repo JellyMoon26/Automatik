@@ -6,8 +6,6 @@ Automatik est un logiciel permettant d'éxécuter différends scripts shells pou
 
 ## Installation 
 
-#### Version simple
-
 Automatik se compile et s'éxécute très facilement à partir du script install.sh .
 Après avoir téléchargé le dépot Automatik dans votre dossier personnel (/home/utilisateur), ouvrez un terminal(Ctrl+Alt+T) et tapez
 ```bash
@@ -16,19 +14,7 @@ cd Automatik
 ```
 et Automatik est prêt à vous servir (tapez simplementla commande "automatik" pour lancer le logiciel) !
 
- /*#### Version avec paquet
-Si vous êtes sur debian, ubuntu ou un systéme similaire avec le gestionnaire de paquets apt, vous pouvez simplement éxécuter dans votre terminal :
-```bash
-cd 
-
-git clone https://codeberg.org/Alcedinidae/Automatik.git
-
-cd Automatik
-
-sudo apt install ./automatik-0-1_0.1-1_all.deb 
-```
-et voilà !*/
-
+ 
 
 ### Dépendances 
 
