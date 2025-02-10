@@ -29,6 +29,8 @@ et Automatik est prêt à vous servir (tapez simplementla commande "automatik" p
 * bash
 * neofetch
 * telnet
+* rig 
+* aafire
 
 
 **Bonne expérience !!**
