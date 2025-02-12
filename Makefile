@@ -18,3 +18,7 @@ install:
 	sudo cp ~/Automatik/bin/sl /usr/bin
 	sudo cp ~/Automatik/bin/telnet /usr/bin
 
+# pour compiler la doc
+doc:
+	@mkdir -p out
+	scdoc < doc/automatik.1.scd > out/automatik.1
