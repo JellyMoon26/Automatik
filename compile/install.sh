@@ -16,9 +16,14 @@ echo "Création du dossier cible…"
 
 cd ~/Automatik
 
-echo "Copie des scripts de configuration…"
+echo "Copie des binaires de configuration…"
 
-cp -r scripts ~/.config/automatik/scripts
+sudo cp  ~/Automatik/bin/lolcat /usr/bin
+sudo cp  ~/Automatik/bin/aafire /usr/bin
+sudo cp  ~/Automatik/bin/fortune /usr/bin
+sudo cp  ~/Automatik/bin/rig  /usr/bin
+sudo cp  ~/Automatik/bin/sl  /usr/bin
+sudo cp  ~/Automatik/bin/telnet /usr/bin
 
 echo "Installation terminée. Vous pouvez taper la commande 'automatik' pour exécuter le logiciel. Bonne chance !"
 
