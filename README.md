@@ -2,7 +2,7 @@
 
 Automatik est un logiciel permettant d'éxécuter différends scripts shells pour linux, (éventuellement macOS, pour plus d'informations sur l'installation sur macOS, allez voir dans le wiki.)
 
-<img class="img1" src="https://codeberg.org/Alcedinidae/Automatik/raw/commit/981b6cef787492b2dd6877d08ca28a30539c498e/screenshots/mainwindow-resized.png" alt="screenshot of automatik">
+<img class="img1" src="screenshots/mainwindow.png" alt="screenshot of automatik">
 
 ## Installation 
 
