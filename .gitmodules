@@ -1,0 +1,3 @@
+[submodule "website"]
+	path = website
+	url = git@codeberg.org:Alcedinidae/pages.git
