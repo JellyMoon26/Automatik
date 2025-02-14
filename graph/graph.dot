@@ -1,0 +1,116 @@
+digraph G {
+   graph[rankdir="LR", fontsize=10.0, bgcolor="white"];
+   node[shape=ellipse, fontsize=10.0, style="filled"];
+   edge[weight=2, penwidth=1.0, fontsize=10.0, arrowtail="open", dir="back"];
+
+   // label cnode, mnode and snodes
+   "640cf67" [label="640cf67", color="bisque"];
+   "69c142a" [label="69c142a", color="tomato"];
+   "59f4dbc" [label="59f4dbc", color="tomato"];
+   "c863306" [label="c863306", color="bisque"];
+   "3cf4131" [label="3cf4131", color="tomato"];
+   "2b534e1" [label="2b534e1", color="tomato"];
+   "071cd50" [label="071cd50", color="bisque"];
+   "b4131bc" [label="b4131bc", color="bisque"];
+   "f914e84" [label="f914e84", color="bisque"];
+   "03485fc" [label="03485fc", color="lightpink"];
+   "b1aa959" [label="b1aa959", color="tomato"];
+   "4b4ce38" [label="4b4ce38", color="tomato"];
+   "27f33d2" [label="27f33d2", color="bisque"];
+   "a1d614e" [label="a1d614e", color="lightpink"];
+   "91ce8d9" [label="91ce8d9", color="bisque"];
+   "4cd0b03" [label="4cd0b03", color="tomato"];
+   "361ab47" [label="361ab47", color="tomato"];
+   "a539c4a" [label="a539c4a", color="bisque"];
+   "450b079" [label="450b079", color="tomato"];
+   "5b14a5a" [label="5b14a5a", color="tomato"];
+   "d3465ea" [label="d3465ea", color="bisque"];
+   "3c3febd" [label="3c3febd", color="lightpink"];
+   "d7eabda" [label="d7eabda", color="tomato"];
+   "9efc05e" [label="9efc05e", color="tomato"];
+   "efca976" [label="efca976", color="bisque"];
+   "0a1b3d7" [label="0a1b3d7", color="bisque"];
+   "89bc7ec" [label="89bc7ec", color="bisque"];
+   "7740c01" [label="7740c01", color="lightpink"];
+   "3e6d441" [label="3e6d441", color="tomato"];
+   "7148c59" [label="7148c59", color="tomato"];
+   "6a23863" [label="6a23863", color="lightpink"];
+   "a3d22a7" [label="a3d22a7", color="tomato"];
+   "9cd7238" [label="9cd7238", color="tomato"];
+   "5c950c9" [label="5c950c9", color="bisque"];
+   "aaafc61" [label="aaafc61", color="bisque"];
+   "137f406" [label="137f406", color="bisque"];
+   "75f77a5" [label="75f77a5", color="lightpink"];
+   "a1e2721" [label="a1e2721", color="tomato"];
+   "f843f58" [label="f843f58", color="tomato"];
+
+   // edges
+   "69c142a" -> "640cf67" ;
+   "59f4dbc" -> "69c142a" [label="2", style=dotted, arrowhead="none", dir="none"];
+   "c863306" -> "59f4dbc" ;
+   "3cf4131" -> "c863306" ;
+   "2b534e1" -> "3cf4131" [label="5", style=dotted, arrowhead="none", dir="none"];
+   "071cd50" -> "2b534e1" ;
+   "f914e84" -> "071cd50" ;
+   "b4131bc" -> "071cd50" ;
+   "03485fc" -> "b4131bc" ;
+   "03485fc" -> "f914e84" ;
+   "b1aa959" -> "03485fc" ;
+   "4b4ce38" -> "b1aa959" [label="2", style=dotted, arrowhead="none", dir="none"];
+   "a1d614e" -> "4b4ce38" ;
+   "a1d614e" -> "27f33d2" ;
+   "91ce8d9" -> "a1d614e" ;
+   "4cd0b03" -> "91ce8d9" ;
+   "361ab47" -> "4cd0b03" [label="4", style=dotted, arrowhead="none", dir="none"];
+   "a539c4a" -> "361ab47" ;
+   "d3465ea" -> "a539c4a" ;
+   "450b079" -> "a539c4a" ;
+   "5b14a5a" -> "450b079" [label="2", style=dotted, arrowhead="none", dir="none"];
+   "3c3febd" -> "5b14a5a" ;
+   "3c3febd" -> "d3465ea" ;
+   "d7eabda" -> "3c3febd" ;
+   "9efc05e" -> "d7eabda" [label="5", style=dotted, arrowhead="none", dir="none"];
+   "efca976" -> "9efc05e" ;
+   "0a1b3d7" -> "efca976" ;
+   "7740c01" -> "efca976" ;
+   "6a23863" -> "0a1b3d7" ;
+   "7740c01" -> "89bc7ec" ;
+   "3e6d441" -> "7740c01" ;
+   "7148c59" -> "3e6d441" [label="3", style=dotted, arrowhead="none", dir="none"];
+   "6a23863" -> "7148c59" ;
+   "a3d22a7" -> "6a23863" ;
+   "9cd7238" -> "a3d22a7" [label="10", style=dotted, arrowhead="none", dir="none"];
+   "5c950c9" -> "9cd7238" ;
+   "137f406" -> "5c950c9" ;
+   "aaafc61" -> "5c950c9" ;
+   "75f77a5" -> "aaafc61" ;
+   "75f77a5" -> "137f406" ;
+   "a1e2721" -> "75f77a5" ;
+   "f843f58" -> "a1e2721" [label="38", style=dotted, arrowhead="none", dir="none"];
+
+   // annotate branches and tags
+   "bid-00000000" [label="main\norigin/main", color="lightblue", style=filled, shape=box, height=0.15];
+   "640cf67" -> "bid-00000000" [arrowhead=normal, color="lightblue", dir=none];
+   {rank=same; "640cf67"; "bid-00000000"};
+
+   "bid-00000003" [label="origin/dev-release\norigin/dev\ndev-release\ndev", color="lightblue", style=filled, shape=box, height=0.15];
+   "c863306" -> "bid-00000003" [arrowhead=normal, color="lightblue", dir=none];
+   {rank=same; "c863306"; "bid-00000003"};
+
+   "bid-00000015" [label="origin/work\nwork", color="lightblue", style=filled, shape=box, height=0.15];
+   "27f33d2" -> "bid-00000015" [arrowhead=normal, color="lightblue", dir=none];
+   {rank=same; "27f33d2"; "bid-00000015"};
+
+   "tid-00000017" [label="tag: v0.1", color="thistle", style=filled, shape=box, height=0.15];
+   "tid-00000017" -> "91ce8d9" [arrowhead=normal, color="thistle", dir=none];
+   {rank=same; "91ce8d9"; "tid-00000017"};
+
+   "bid-00000034" [label="merge", color="lightblue", style=filled, shape=box, height=0.15];
+   "89bc7ec" -> "bid-00000034" [arrowhead=normal, color="lightblue", dir=none];
+   {rank=same; "89bc7ec"; "bid-00000034"};
+}
+// summary:num_graph_commit_nodes 15
+// summary:num_graph_merge_nodes 6
+// summary:num_graph_squash_nodes 18
+// summary:total_commits 92
+// summary:total_graph_commit_nodes 39
