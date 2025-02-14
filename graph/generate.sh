@@ -4,4 +4,4 @@ git log --graph --oneline --all --decorate --pretty=format:'%h %d %s' > graph/gr
 
 cd graph
 
-./git2dot.py --crunch --squash --svg graph.dot
+./git2dot --crunch --squash --svg graph.dot

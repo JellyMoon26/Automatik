@@ -1,116 +1,103 @@
-digraph G {
-   graph[rankdir="LR", fontsize=10.0, bgcolor="white"];
-   node[shape=ellipse, fontsize=10.0, style="filled"];
-   edge[weight=2, penwidth=1.0, fontsize=10.0, arrowtail="open", dir="back"];
-
-   // label cnode, mnode and snodes
-   "640cf67" [label="640cf67", color="bisque"];
-   "69c142a" [label="69c142a", color="tomato"];
-   "59f4dbc" [label="59f4dbc", color="tomato"];
-   "c863306" [label="c863306", color="bisque"];
-   "3cf4131" [label="3cf4131", color="tomato"];
-   "2b534e1" [label="2b534e1", color="tomato"];
-   "071cd50" [label="071cd50", color="bisque"];
-   "b4131bc" [label="b4131bc", color="bisque"];
-   "f914e84" [label="f914e84", color="bisque"];
-   "03485fc" [label="03485fc", color="lightpink"];
-   "b1aa959" [label="b1aa959", color="tomato"];
-   "4b4ce38" [label="4b4ce38", color="tomato"];
-   "27f33d2" [label="27f33d2", color="bisque"];
-   "a1d614e" [label="a1d614e", color="lightpink"];
-   "91ce8d9" [label="91ce8d9", color="bisque"];
-   "4cd0b03" [label="4cd0b03", color="tomato"];
-   "361ab47" [label="361ab47", color="tomato"];
-   "a539c4a" [label="a539c4a", color="bisque"];
-   "450b079" [label="450b079", color="tomato"];
-   "5b14a5a" [label="5b14a5a", color="tomato"];
-   "d3465ea" [label="d3465ea", color="bisque"];
-   "3c3febd" [label="3c3febd", color="lightpink"];
-   "d7eabda" [label="d7eabda", color="tomato"];
-   "9efc05e" [label="9efc05e", color="tomato"];
-   "efca976" [label="efca976", color="bisque"];
-   "0a1b3d7" [label="0a1b3d7", color="bisque"];
-   "89bc7ec" [label="89bc7ec", color="bisque"];
-   "7740c01" [label="7740c01", color="lightpink"];
-   "3e6d441" [label="3e6d441", color="tomato"];
-   "7148c59" [label="7148c59", color="tomato"];
-   "6a23863" [label="6a23863", color="lightpink"];
-   "a3d22a7" [label="a3d22a7", color="tomato"];
-   "9cd7238" [label="9cd7238", color="tomato"];
-   "5c950c9" [label="5c950c9", color="bisque"];
-   "aaafc61" [label="aaafc61", color="bisque"];
-   "137f406" [label="137f406", color="bisque"];
-   "75f77a5" [label="75f77a5", color="lightpink"];
-   "a1e2721" [label="a1e2721", color="tomato"];
-   "f843f58" [label="f843f58", color="tomato"];
-
-   // edges
-   "69c142a" -> "640cf67" ;
-   "59f4dbc" -> "69c142a" [label="2", style=dotted, arrowhead="none", dir="none"];
-   "c863306" -> "59f4dbc" ;
-   "3cf4131" -> "c863306" ;
-   "2b534e1" -> "3cf4131" [label="5", style=dotted, arrowhead="none", dir="none"];
-   "071cd50" -> "2b534e1" ;
-   "f914e84" -> "071cd50" ;
-   "b4131bc" -> "071cd50" ;
-   "03485fc" -> "b4131bc" ;
-   "03485fc" -> "f914e84" ;
-   "b1aa959" -> "03485fc" ;
-   "4b4ce38" -> "b1aa959" [label="2", style=dotted, arrowhead="none", dir="none"];
-   "a1d614e" -> "4b4ce38" ;
-   "a1d614e" -> "27f33d2" ;
-   "91ce8d9" -> "a1d614e" ;
-   "4cd0b03" -> "91ce8d9" ;
-   "361ab47" -> "4cd0b03" [label="4", style=dotted, arrowhead="none", dir="none"];
-   "a539c4a" -> "361ab47" ;
-   "d3465ea" -> "a539c4a" ;
-   "450b079" -> "a539c4a" ;
-   "5b14a5a" -> "450b079" [label="2", style=dotted, arrowhead="none", dir="none"];
-   "3c3febd" -> "5b14a5a" ;
-   "3c3febd" -> "d3465ea" ;
-   "d7eabda" -> "3c3febd" ;
-   "9efc05e" -> "d7eabda" [label="5", style=dotted, arrowhead="none", dir="none"];
-   "efca976" -> "9efc05e" ;
-   "0a1b3d7" -> "efca976" ;
-   "7740c01" -> "efca976" ;
-   "6a23863" -> "0a1b3d7" ;
-   "7740c01" -> "89bc7ec" ;
-   "3e6d441" -> "7740c01" ;
-   "7148c59" -> "3e6d441" [label="3", style=dotted, arrowhead="none", dir="none"];
-   "6a23863" -> "7148c59" ;
-   "a3d22a7" -> "6a23863" ;
-   "9cd7238" -> "a3d22a7" [label="10", style=dotted, arrowhead="none", dir="none"];
-   "5c950c9" -> "9cd7238" ;
-   "137f406" -> "5c950c9" ;
-   "aaafc61" -> "5c950c9" ;
-   "75f77a5" -> "aaafc61" ;
-   "75f77a5" -> "137f406" ;
-   "a1e2721" -> "75f77a5" ;
-   "f843f58" -> "a1e2721" [label="38", style=dotted, arrowhead="none", dir="none"];
-
-   // annotate branches and tags
-   "bid-00000000" [label="main\norigin/main", color="lightblue", style=filled, shape=box, height=0.15];
-   "640cf67" -> "bid-00000000" [arrowhead=normal, color="lightblue", dir=none];
-   {rank=same; "640cf67"; "bid-00000000"};
-
-   "bid-00000003" [label="origin/dev-release\norigin/dev\ndev-release\ndev", color="lightblue", style=filled, shape=box, height=0.15];
-   "c863306" -> "bid-00000003" [arrowhead=normal, color="lightblue", dir=none];
-   {rank=same; "c863306"; "bid-00000003"};
-
-   "bid-00000015" [label="origin/work\nwork", color="lightblue", style=filled, shape=box, height=0.15];
-   "27f33d2" -> "bid-00000015" [arrowhead=normal, color="lightblue", dir=none];
-   {rank=same; "27f33d2"; "bid-00000015"};
-
-   "tid-00000017" [label="tag: v0.1", color="thistle", style=filled, shape=box, height=0.15];
-   "tid-00000017" -> "91ce8d9" [arrowhead=normal, color="thistle", dir=none];
-   {rank=same; "91ce8d9"; "tid-00000017"};
-
-   "bid-00000034" [label="merge", color="lightblue", style=filled, shape=box, height=0.15];
-   "89bc7ec" -> "bid-00000034" [arrowhead=normal, color="lightblue", dir=none];
-   {rank=same; "89bc7ec"; "bid-00000034"};
-}
-// summary:num_graph_commit_nodes 15
-// summary:num_graph_merge_nodes 6
-// summary:num_graph_squash_nodes 18
-// summary:total_commits 92
-// summary:total_graph_commit_nodes 39
+* ccdf151  (HEAD -> main, origin/main) Create a script for generating a graph for the git repository.
+* 640cf67  obfuscate the screenshots.
+* 69c142a  this is a commit
+* 59f4dbc  deleted /script
+* c863306  (origin/dev-release, origin/dev, dev-release, dev) Add a submodule : Alcedinidae website.
+* 3cf4131  A commit. Just a git commit.
+* a7a4c54  Actualiser README.md
+* 434502b  this is a commit
+* 44be3d9  A second new commit
+* 2b534e1  A new commit
+*   071cd50  Merge remote-tracking branch 'refs/remotes/origin/main'
+|\  
+| * b4131bc  Actualiser README.md
+* | f914e84  This is a commit
+|/  
+* 03485fc  add /screenshot folder
+* b1aa959  Bug correction, stable version !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+* 4b4ce38  commit
+| * 27f33d2  (origin/work, work) commit
+|/  
+* a1d614e  This is a stable version.
+* 91ce8d9  (tag: v0.1) Actualiser README.md
+* 4cd0b03  Actualiser README.md
+* 36fda4d  Actualiser README.md
+* 8314bcf  Actualiser README.md
+* 361ab47  add dependencies scripts
+*   a539c4a  Merge remote-tracking branch 'origin/main'
+|\  
+| * 450b079  Actualiser README.md
+| * 5b14a5a  Actualiser README.md
+* | d3465ea  commit
+|/  
+* 3c3febd  deleted rust
+* d7eabda  Actualiser README.md
+* 1845c82  add a fontion
+* 6a44c62  this           is           a              commmmmmmmmmmmmmmmmmmmmmmmmmmmiiiiiiiiiiit
+* f729eb2  commit. jist a commit
+* 9efc05e  Actualiser README.md
+*   efca976  commit
+|\  
+* | 0a1b3d7  My name is Commit, Git Commit.
+| | * 89bc7ec  (merge) My name is Commit, Git Commit.
+| |/  
+| * 7740c01  Actualiser README.md
+| * 3e6d441  Actualiser README.md
+| * cb042ea  Actualiser README.md
+| * 7148c59  commit 2
+|/  
+* 6a23863  commit
+* a3d22a7  Actualiser README.md
+* 5ee4c2c  Actualiser README.md
+* 16a5d06  Actualiser README.md
+* 981b6ce  commit .another commit
+* df3978f  commit
+* aa50491  commit
+* 3d7ba74  a little bug correction.
+* 971b0f4  commit
+* 53fbe0e  Actualiser README.md
+* 9cd7238  Add the binary file to the .gitignore file
+*   5c950c9  Merge remote-tracking branch 'refs/remotes/origin/main'
+|\  
+| * aaafc61  Actualiser README.md
+* | 137f406  This a deb. A really deb.
+|/  
+* 75f77a5  new deb
+* a1e2721  A deb pacakge !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+* 4f663b3  commit !
+* 287bc65  new script !
+* 076caf9  commit
+* 86a3c98  remove file
+* 15e21b4  new file
+* e5b81d8  new commit
+* 0c9b97e  new script
+* 6c322bb  rename /code to /src like the professionnal devs
+* b33c51e  ok
+* a47a430  ok
+* 4827c2b  Actualiser README.md
+* 3530b4b  organization files
+* 3f26b30  ok
+* df35bad  Actualiser README.md
+* 8a276f8  Actualiser README.md
+* 532b381  Actualiser README.md
+* 8d4d403  Actualiser README.md
+* 9f169f6  Actualiser .gitignore
+* e66cf85  news icons
+* 6c2533c  Actualiser README.md
+* d6608ed  Actualiser README.md
+* c4de642  all or nothing
+* 3c5f5ce  new hope
+* 3cba940  Actualiser README.md
+* 8f47036  new README, new hope
+* 501be44  Victory !
+* fcaab45  change to fr
+* 2774e90  a new commit
+* 00c1b01  two news files !!!! Good
+* ef3bf1d  Hello everybody
+* a5c0e47  A new hope (code)
+* 0004ca6  Hello World
+* 92ab931  Actualiser README.md
+* 828790b  a new file !!!!!!!!!!!!!!!!
+* 1578631  Free for all today
+* c6d6da5  Actualiser README.md
+* f843f58  Initial commit
