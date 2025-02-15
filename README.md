@@ -1,4 +1,4 @@
-# Automatik 1.0
+# Automatik 
 
 Automatik est un logiciel permettant d'éxécuter différentes commandes amusantes en shell pour linux.
 
