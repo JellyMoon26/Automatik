@@ -1,0 +1,6 @@
+[submodule "website"]
+	path = website
+	url = git@codeberg.org:Alcedinidae/pages.git
+[submodule "grapher"]
+	path = grapher
+	url = git@codeberg.org:Alcedinidae/git2dot-autogenerate.git

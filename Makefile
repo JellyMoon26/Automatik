@@ -1,31 +1,24 @@
-# Définir les variables
-CC = gcc
-SRC = src/main.c
-OUT = automatik
-CONFIG_DIR = ~/.config/automatik
-SCRIPTS_DIR = ~/Automatik/scripts
-
-# Règle par défaut
+# Makefile 
+# Cibles
 all: compile install
 
-# Règle de compilation
+
+# pour compiler le code
 compile:
-	@echo "Compilation…"
-	$(CC) $(SRC) -o $(OUT)
+	gcc src/main.c -o automatik
 
-# Règle d'installation
-install: compile
-	@echo "Copie des fichiers…"
-	sudo cp $(OUT) /usr/bin/$(OUT)
+# Copie des binaires
+install:
+	sudo cp automatik /usr/bin/automatik
+	mkdir -p ~/.config/automatik
+	sudo cp ~/Automatik/bin/lolcat /usr/bin
+	sudo cp ~/Automatik/bin/aafire /usr/bin
+	sudo cp ~/Automatik/bin/fortune /usr/bin
+	sudo cp ~/Automatik/bin/rig /usr/bin
+	sudo cp ~/Automatik/bin/sl /usr/bin
+	sudo cp ~/Automatik/bin/telnet /usr/bin
 
-	@echo "Configuration des sorties…"
-	mkdir -p $(CONFIG_DIR)
-
-	@echo "Création du dossier cible…"
-	cp -r $(SCRIPTS_DIR) $(CONFIG_DIR)/scripts
-
-	@echo "Installation terminée. Vous pouvez taper la commande '$(OUT)' pour exécuter le logiciel. Bonne chance !"
-
-# Règle de nettoyage
-clean:
-	rm -f $(OUT)
+# pour compiler la doc
+doc:
+	@mkdir -p out
+	scdoc < doc/automatik.1.scd > out/automatik.1
