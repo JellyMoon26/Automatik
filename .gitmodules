@@ -3,7 +3,4 @@
 	url = git@codeberg.org:Alcedinidae/pages.git
 [submodule "grapher"]
 	path = grapher
-	url = git@codeberg.org:Alcedinidae/git2dot-autogenerate.git
-[submodule "pages"]
-	path = pages
-	url = https://codeberg.org/Alcedinidae/pages
+	url = git@codeberg.org:Alcedinidae/git2dot-generator.git
